@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solucionador de Problemas Matemáticos</title>
+    <link rel="stylesheet" href="solucion a planteamiento.css">
+</head>
+<body>
+
+    <header>
+        <h1>Solucionador de Problemas Matemáticos</h1>
+        <p>Resuelve ecuaciones cuadráticas paso a paso</p>
+    </header>
+
+    <main>
+        <section class="problema">
+            <h2>Problema Planteado</h2>
+            <p>Resuelve la ecuación cuadrática: <strong>2x<sup>2</sup> - 4x - 6 = 0</strong></p>
+
+            <form id="solver-form">
+                <label for="respuesta">Introduce tu solución:</label>
+                <input type="text" id="respuesta" name="respuesta" placeholder="Solución..." required>
+
+                <input type="submit" value="Enviar Respuesta">
+            </form>
+
+            <div id="feedback"></div>
+        </section>
+
+        <section class="sugerencias" id="sugerencias" style="display: none;">
+            <h2>Sugerencias y Explicación Paso a Paso</h2>
+            <ol id="pasos">
+                <!-- Los pasos aparecerán aquí dinámicamente -->
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por: Adrian Acosta | Contacto: 324 4159666</p>
+    </footer>
+
+    <script src="solucion a planteamiento.js"></script>
+</body>
+</html>
